@@ -1,0 +1,10 @@
+# robots.txt
+User-agent: Googlebot
+Allow: /
+Disallow:
+
+User-agent: *
+Allow: /
+Disallow:
+
+Sitemap: https://uefczsaraguro.com/sitemap.xml
