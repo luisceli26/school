@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FacebookPosts } from "../components/news/FacebookPosts";
 
 export const News = () => {

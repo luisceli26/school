@@ -47,7 +47,7 @@ export const Header = () => {
             </svg>
           </button>
 
-          <nav className="hidden md:block">
+          <nav className="hidden md:block text-2xl">
             <ul className="flex space-x-6">
               <li>
                 <Link to="/" className={getLinkClass("/")}>

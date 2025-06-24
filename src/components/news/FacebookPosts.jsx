@@ -93,7 +93,15 @@ export const FacebookPosts = ({ numberOfPosts }) => {
 
                 <div className="flex items-center mt-3 text-sm text-gray-500">
                   <Calendar size={16} className="mr-2" />
-                  <p>{new Date(post.created_time).toLocaleString()}</p>
+                  <p className="capitalize">
+  {new Date(post.created_time).toLocaleDateString("es-ES", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  })}
+</p>
+
                 </div>
 
                 {post.attachments?.data?.[0]?.media && (
